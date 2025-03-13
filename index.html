@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajería Instantánea DMS-51</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mensajería Instantánea DMS-51</h1>
+            <p>Nataly Gonzalez Colin</p>
+        </header>
+        <main class="content">
+            <section class="message-input">
+                <form id="formulario">
+                    <div class="input-card">
+                        <label for="tweet">Mensaje:</label>
+                        <textarea id="tweet" class="message-text" placeholder="Escribe tu mensaje..."></textarea>
+                        <button type="submit" class="send-button"><i class="fas fa-paper-plane"></i> Agregar</button>
+                    </div>
+                </form>
+            </section>
+            <section class="message-list">
+                <div class="list-card">
+                    <h2>Pedidos</h2>
+                    <table id="lista-tweets">
+                        <thead>
+                            <tr>
+                                <th>Mensaje</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
